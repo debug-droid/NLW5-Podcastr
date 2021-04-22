@@ -19,7 +19,7 @@ function MyApp({ Component, pageProps }) {
   }
 
   function togglePlay() {
-    setIsPlaying(!setIsPlaying);
+    setIsPlaying(!isPlaying);
   }
 
   function setPlayingState(state: boolean) {
